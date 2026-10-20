@@ -1,0 +1,7 @@
+## Validation Reflection — hawad
+
+Across the ten projects, agreement was highest for Currentstatus (100%) and HasRecovered (90%) and lowest for ActivityPattern (20%). The biggest reason for disagreements was that I mostly looked at the last year of GitHub activity, while the author used the full commit history. This made some projects look steady or stopped when their longer history showed U-shaped or irregular patterns. We mostly kept the author's labels because they had more complete evidence.
+
+Another thing I noticed is that long gaps do not always mean a project is dead. Projects like hpddm, rebound, MMseqs2, and gfsynopsis became active again when maintainers returned to fix bugs, update versions, or continue maintenance. In contrast, kymatio_wph did not show a real recovery after a 30-month gap, with only two minor commits and no renewed maintainer activity.
+
+The main challenges were telling irregular patterns from cyclical ones, identifying true recovery versus normal ongoing development, and deciding whether documentation or CI changes counted as meaningful activity. We resolved these by discussing the evidence and relying on the author's longer history and statistics when needed. All 13 disagreements were resolved. Overall, this showed me how important it is to look at the full history before labeling a project and how discussion can help resolve different interpretations.
